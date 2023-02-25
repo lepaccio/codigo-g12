@@ -13,19 +13,30 @@
         <form>
             <!-- Los imputs tienen tipos, por defecto son de tipo text pero hay mas-->
             <p>
-                <input type="text" name="nombre" placeholder="ingresa tu nombre" />
+                <input type="text" name="nombre" placeholder="ingresa tu nombre" autocomplete="off" required/>
             </p>
 
             <p>
-                <input type="email" name="email" placeholder="ingresa tu correo" />
+                <!-- readonly: valor de solo lectura, no se puede modificar
+                     value: el valor por defecto que tomara el input
+                -->
+                <input type="email" name="email" placeholder="ingresa tu correo" readonly value="percy@gmail.com"/>
             </p>
 
             <p>
-                <input type="password" name="password" placeholder="Ingresa una contraseña segura" />
+                <!-- disable: deshabilita el uso del input ademas de no enviar nada-->
+                <input type="password" name="password" placeholder="Ingresa una contraseña segura" disabled/>
             </p>
             
             <p>
-                <input type="file" />
+                <!--
+                    video/*
+                    audio/*
+                    pdf/*
+                    mp3/*
+                    image/*
+                -->
+                <input type="file" accept="image/*" name="image"/>
             </p>
 
             <p>
@@ -59,6 +70,9 @@
             </p>
             <p>
                 <input type="radio" name="option"/> Opcion 3
+            </p>
+            <p>
+                <input type="color" name="bg_color">
             </p>
             <p>
                 <!-- <input type="submit">   -->
