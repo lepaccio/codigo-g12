@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
 </head>
+
+<!--
+    <style>
+        p {
+            border: solid 1px red;
+            padding: 10px;
+        }
+    </style>
+-->
+
 <body>
     <section>
-        <h1>Formularios</h1>
+        <h1 style="color: blue; font-size: 60px;">Formularios</h1>
         <!-- Sirve para crear un formulario-->
         <form>
             <!-- Los imputs tienen tipos, por defecto son de tipo text pero hay mas-->
             <p>
+                <!-- required: Valor obligatorio para enviar el formulario
+                     autocomplete: activa o desactiva el autocompletado(on/off) 
+                -->
                 <input type="text" name="nombre" placeholder="ingresa tu nombre" autocomplete="off" required/>
             </p>
 
