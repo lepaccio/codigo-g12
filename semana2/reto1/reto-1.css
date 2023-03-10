@@ -1,0 +1,85 @@
+/* " * " es el todo */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+}
+
+.main {
+    display: flex;
+    /* Para centrar de forma horizontal */
+    justify-content: center;
+    /* Para centrar de forma vertical */
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 330px;
+    background-image: linear-gradient(to bottom,#1f262e,#1f262e);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+img {
+    background-color: #262f38;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+p {
+    margin-top: 15px;
+    font-weight: 200;
+    color: hsl(217, 12%, 63%);
+}
+
+
+.opciones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.opciones button {
+    width: 45px;
+    height: 45px; 
+    background-color: #252d38;
+    border-radius: 50%;
+    border: none;
+    color: hsl(217, 12%, 63%); 
+}
+
+.opciones button:hover {
+    cursor: pointer;
+    background-color: #f27c29;
+    color: white;
+}
+
+.enviar {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #f27c29;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: white;
+    color: #f27c29;
+}
