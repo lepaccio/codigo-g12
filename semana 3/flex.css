@@ -1,0 +1,26 @@
+main{
+    display: flex;
+    /* Ojo la propiedades que vamos a ver depende que el display sea flex*/
+
+    /* Permita manejar la alineacion de manera horizontal
+        - space-around: sirve para darle espacion entre los elementos y ademas los margenes horizontales 
+        - space-between: sirve para darle espacio entre los elementos, ignora los margenes
+        - space-evenly: sirve para darle espacio entre los elementos y ademas añade un margen que es mas grande que el espacio entre los elementos
+        - center: centra todos los elemento en el medio de todo el bloques
+    */
+    justify-content: space-around;
+
+    /* Permita manejar la alineacion de manera vertical*/
+    align-items: center;
+}
+
+div{
+    border: solid;
+    margin-top: 20px;
+
+}
+
+img{
+    height: 200px;
+    object-fit: contain;
+}
