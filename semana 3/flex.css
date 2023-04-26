@@ -12,15 +12,23 @@ main{
 
     /* Permita manejar la alineacion de manera vertical*/
     align-items: center;
+    gap: 5px;
+    margin: 10px;
+    /* Con flex wrap controlamos el comportamiento de los flex cuando no hay suficiente espacio en la pantalla */
+    flex-wrap: wrap;
 }
 
 div{
-    border: solid;
     margin-top: 20px;
-
+    text-align: center;
+    padding: 20px;
+    width: 1fr;
+    border-radius: 12px;
+    box-shadow: 2px 16px 161px -3px rgba(189,189,189,0.75);
 }
 
 img{
-    height: 200px;
+    height: 300px;
+    width: 300px;
     object-fit: contain;
 }

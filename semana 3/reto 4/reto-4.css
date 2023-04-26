@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(197,228,231,255);
+    font-family: 'Space Mono', monospace, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+.main div{
+    border: solid 1px red;
+    position: relative;
+}
+
+.carta{
+    width: 900px;
+    height: 650px;
+}
+
+.texto{
+    width: 900px;
+    height: 180px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.texto p{
+    border: solid 1px red;
+    margin: 10px 0;
+    text-transform: uppercase;
+    color: rgba(64,99,101,255);
+}
+
+.calculadora{
+    background-color: rgba(255,255,255,255);
+    width: 900px;
+    height: 470px;
+    border-radius: 40px;
+    display: flex;
+}
+
+.calculadora div{
+    width: 50%;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input div{
+    margin: 0;
+    width: 100%;
+}
+
+.bill{
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.selec-tip{
+    height: 50%;
+}
+
+.people{
+    height: 25%;
+}
+
+.see{
+    background-color: rgba(0,71,75,255);
+    display: flex;
+    flex-direction: column;
+}
+
+.see div{
+    margin: 0;
+    width: 100%;
+}
+
+.amount{
+    height: 80%;
+}
+
+.total{
+    height: 20%;
+}
